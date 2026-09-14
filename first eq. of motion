@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+   printf("The equation of motion 1st: ");
+   
+    int u=10;
+    int a;
+    int t;
+    int velocity;
+    
+    printf("\n Enter acceleration: ");
+    
+    scanf("%d" , &t);
+    printf("\n Enter the total time: ");
+    scanf("%d", &a);
+    
+    velocity= u+ a*t;
+    
+    printf("the final velocity is: %d", velocity);
+    
+    return 0;
+}
